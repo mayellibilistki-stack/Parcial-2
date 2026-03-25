@@ -1,20 +1,20 @@
-# A função para calcular a área de um triângulo é:
+# Primeira função é para calcular a área de um triângulo.
 def calcular_area_triangulo(base, altura):
     return (base * altura) / 2
 
-# A principal função
+# Essa é a função pincipal de todas
 def main():
-    print("Cálculo da área de um triângulo")
+    print("Cálcular a área de um triângulo")
     
-    # Depois disso, solicita a base e altura do triângulo
-    base = float(input("Digite o valor da base do triângulo: "))
-    altura = float(input("Digite o valor da altura do triângulo: "))
+    # Após tudo isso, é preciso solicitar a base e altura do triângulo
+    base = float(input("Digite aqui qual é o valor da base do triângulo: "))
+    altura = float(input("Digite o valor da altura do triângulo que você deseja medir: "))
     
-    # Forma de calcular a área
+    # Depois, vem a forma que vai ser usado para calcular a área
     area = calcular_area_triangulo(base, altura)
     
-    # Por último exibe o resultado
+    # E por fim mostra o resultado final
     print(f"A área do triângulo com base {base} e altura {altura} é: {area}")
 
-# Chama a função principal
+# Vai chamar a função principal
 main()
