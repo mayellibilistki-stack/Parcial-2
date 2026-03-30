@@ -1,7 +1,7 @@
 
 
 #Código da Calculadora Simples
-#'n1' e 'n2' essas variaveis foram usadas para selecionar os numeros
+#'num1' e 'num2' essas variaveis foram usadas para selecionar os numeros
 num1 = float(input("escolha um numero"))
 num2 = float(input("escolha outro numero"))
 #'operação' a pessoa seleciona a operação que vai ser usada
