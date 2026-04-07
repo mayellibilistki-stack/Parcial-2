@@ -1,23 +1,20 @@
-# Aqui a pessoa vai digitar a quantidade de segundos 
-total_segundos = int(input("Digite a quantidade de segundos: "))
+# A váriavel segundos é para solicitar o valor de segundos 
+segundos = int(input("Digite a quantidade de segundos: "))
 
-# Vai ser realizado os cálculos
-horas = total_segundos // 3600
-resto_segundos = total_segundos % 3600
-minutos = resto_segundos // 60
-segundos_finais = resto_segundos % 60
-
-# O final é a exibição do resultado
-print(f"{total_segundos} segundos equivalem a:")
-print(f"{horas}h {minutos}min {segundos_finais}s")
-
-# Vai ser a entrada do usuário
-h = int(input("Horas: "))
-m = int(input("Minutos: "))
-s = int(input("Segundos: "))
-
-# É realizado o cálculo: 1h = 3600s | 1min = 60s
-resultado_segundos = (h * 3600) + (m * 60) + s
-
-# É a parte da exibição do resultado
-print(f"O total convertido é de {resultado_segundos} segundos.")
+# Essa é a parte que vai ser realizado os cálculos para chegar no resultado
+horas = segundos // 3600
+minutos = segundos // 60
+# Mostra os resultados
+print('horas')
+print(horas)
+print('minutos')
+print(minutos)
+# Váriavel que solicita o valor das horas
+hrs = int(input("Digite a quantidade de horas: "))
+seg = hrs * 3600
+min = hrs * 60
+# Mostra o resultado
+print('segundos')
+print(seg)
+print('min')
+print(min)
